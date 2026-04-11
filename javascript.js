@@ -19,7 +19,9 @@ function wrongPicture ()
 
 //recall Game
 
-let correct=["calculator","cart","basket","shop","wifi","wi-fi","email","mail","webmail","home","house","play","search"];
+let correct=["calculator","cart","basket","shop","wifi","wi-fi","email","mail","webmail","home","house","play","search",
+                     "Calculator","Cart","Basket","Shop","Wifi","Wi-fi","Email","Mail","Webmail","Home","House","Play","Search",
+                  "CALCULATOR","CART","BASKET","SHOP","WIFI","WI-FI","EMAIL","MAIL","WEBMAIL","HOME","HOUSE","PLAY","SEARCH"]; 
 
 
 function checkAnswer()
@@ -30,7 +32,7 @@ function checkAnswer()
     let found=false;
 
 
-    for (let i=0; i<13; i++)
+    for (let i=0; i<39; i++)
     {
         if (answer===correct[i])
         {
