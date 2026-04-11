@@ -2,15 +2,18 @@
 let gameScore=0;
 document.getElementById("score").innerHTML="Score:"+gameScore;
 
-function correctPicture ()
+function correctPicture (element)
 {
-    let element=event.target;
+    if (element.classList.contains("selected")) {
+        return;
+    }
 
-    alert ("Well done!");
+    alert("Well done!");
+
     gameScore++;
-    document.getElementById("score").innerHTML="Score:"+gameScore;
-    element.style.backgroundColor = "green";
+    document.getElementById("score").innerHTML = "Score:" + gameScore;
 
+    element.classList.add("selected");
 }
 
 function wrongPicture ()
