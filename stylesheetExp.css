@@ -14,7 +14,7 @@ header
 header nav
 {
    display:flex;
-    gap:10px;
+    gap:5px;
 }
 header nav a
 {
