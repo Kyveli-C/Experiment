@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <title> RECALL GAME </title>
+
+    <link rel="stylesheet" href="stylesheetExp.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<header>
+    <img class="pictures" src="images/logo.jpg"  style="width: 3vw; min-width: 100px;" alt="racecars"  />
+    <nav>
+        <a href="index.html" >Home</a>
+        <a  href="game1Pictures.html" > Try Game 1</a>
+        <a href="game2Pictures.html" > Try Game 2</a>
+    </nav>
+
+
+</header>
+<div id="guessBox">
+    <p> Instructions
+        <br> Write down which pictures you remember from the previous page
+        <br>
+
+
+
+        <label for="guess">write your answer:</label>
+        <input type="text" id="guess"> <br>
+        <button type="button" onclick="checkAnswer()" >Check</button>
+</div>
+
+
+
+
+<footer> <div id="score"></div></footer>
+<script src="javascript.js"> </script>
+</body>
+</html>

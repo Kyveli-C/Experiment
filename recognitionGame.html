@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <title> RECOGNITION GAME </title>
+
+    <link rel="stylesheet" href="stylesheetExp.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<header>
+ <img class="logo" src="images/logo.jpg"  style="width: 5vw; min-width: 100px;" alt="racecars"  />
+    <nav>
+        <a href="index.html" >Home</a>
+        <a  href="game1Pictures.html" > Try Game 1</a>
+        <a href="game2Pictures.html" > Try Game 2</a>
+    </nav>
+
+</header>
+<div class="instructions">
+    <p> ----------------------------Instructions----------------------------
+        <br> Click on the pictures that were present in the previous page
+        <br>
+</div>
+
+<img class="picturesSelected" src="images/bluetooth.jpg"  alt="bluetooth"
+    onclick="correctPicture()"/>
+
+<img class="picturesSelected" src="images/cpu.jpg" style="width: 10vw; min-width: 100px" alt="CPU"
+     onclick="wrongPicture()"/>
+
+<img class="picturesSelected" src="images/cursor.jpg"  style="width: 10vw; min-width: 100px" alt="cursor"
+    onclick="correctPicture()"/>
+
+<img class="picturesSelected" src="images/folder.jpg" style="width: 10vw; min-width: 100px" alt="folder"
+     onclick="correctPicture()">
+
+<img class="picturesSelected" src="images/leaderBoard.jpg" style="width: 10vw; min-width: 100px" alt="leaderBoard"
+     onclick="wrongPicture()"/>
+
+<img class="picturesSelected" src="images/incognito.jpg"  style="width: 10vw; min-width: 100px" alt="incognito."
+ onclick="correctPicture()"/>
+
+<img class="picturesSelected" src="images/signIn.jpg" style="width: 10vw; min-width: 80px" alt="signIn"
+     onclick="wrongPicture()"/>
+
+<img class="picturesSelected" src="images/download.jpg"  style="width: 10vw; min-width: 100px" alt="download"
+     onclick="correctPicture()" />
+
+<img class="picturesSelected" src="images/settings.jpg" style="width: 10vw; min-width: 100px" alt="settings"
+   onclick="correctPicture()"/>
+
+<img class="picturesSelected" src="images/password.jpg" style="width: 10vw; min-width: 100px" alt="password"
+     onclick="wrongPicture()"/>
+
+<img class="picturesSelected" src="images/fullBattery.jpg" style="width: 10vw; min-width: 100px" alt="fullBattery"
+     onclick="correctPicture()" />
+
+<img class="picturesSelected" src="images/user.jpg" style="width: 10vw; min-width: 100px" alt="user"
+     onclick="wrongPicture()"/>
+
+<img class="picturesSelected" src="images/location.jpg"  style="width: 10vw; min-width: 100px" alt="location"
+    onclick="correctPicture()"/>
+
+
+
+
+
+<footer> <div id="score"> </div></footer>
+<script src="javascript.js"> </script>
+</body>
+</html>

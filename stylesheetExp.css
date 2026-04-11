@@ -1,0 +1,114 @@
+/*index*/
+header
+{
+    display:flex;
+    border:5px solid white;
+    background:black;
+    padding:7px;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    left:-5px;
+    top:0;
+}
+
+header nav a
+{
+    text-decoration:none;
+    color:white;
+    margin-right:50px;
+
+    left:500px;
+    top:100px;
+
+}
+
+#intro
+{
+    display:flex;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    border:5px dotted black;
+    padding:0;
+}
+
+body
+{
+    background-color:red;
+    color:white;
+}
+
+.pictures
+{
+    /*position:flex;*/
+    /*top:right;*/
+    border: 5px solid black;
+    padding:10px;
+
+
+}
+
+.picturesSelected:hover
+{
+
+    background-color:white;
+}
+
+.picturesSelected
+{
+    border: 5px solid black;
+    padding:10px;
+    width:10vw;
+    height:15vw;
+}
+
+
+@media (max-width: 768px) {
+    #intro {
+        font-size: 1.5rem;
+        margin-top: 5vh;
+    }
+}
+
+.instructions
+{
+    display:flex;
+    height:100px;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    padding:0;
+}
+
+
+footer
+{
+    display:flex;
+    border:5px solid white;
+    background:black;
+    padding:20px;
+    justify-content:space-between;
+    align-items:center;
+    /*position:fixed;*/
+    width:100%;
+    left:-5px;
+    text-align:center;
+    margin-top:100px;
+
+
+
+}
+
+#guessBox
+{
+    display:flex;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    padding:0;
+}
+
+
