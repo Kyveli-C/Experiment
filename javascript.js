@@ -19,20 +19,18 @@ function wrongPicture ()
 
 //recall Game
 
-let correct=["calculator","cart","basket","shop","wifi","wi-fi","email","mail","webmail","home","house","play","search",
-                     "Calculator","Cart","Basket","Shop","Wifi","Wi-fi","Email","Mail","Webmail","Home","House","Play","Search",
-                  "CALCULATOR","CART","BASKET","SHOP","WIFI","WI-FI","EMAIL","MAIL","WEBMAIL","HOME","HOUSE","PLAY","SEARCH"]; 
+let correct=["calculator","cart","basket","shop","wifi","wi-fi","email","mail","webmail","home","house","play","search"];
 
 
 function checkAnswer()
 {
-    let answer=document.getElementById("guess").value;
+    let answer=document.getElementById("guess").value.toLowerCase().trim();
     console.log(answer);
 
     let found=false;
 
 
-    for (let i=0; i<39; i++)
+    for (let i=0; i<correct.length; i++)
     {
         if (answer===correct[i])
         {
