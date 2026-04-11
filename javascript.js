@@ -4,9 +4,12 @@ document.getElementById("score").innerHTML="Score:"+gameScore;
 
 function correctPicture ()
 {
+    let element=event.target;
+
     alert ("Well done!");
     gameScore++;
     document.getElementById("score").innerHTML="Score:"+gameScore;
+    element.style.backgroundColor = "green";
 
 }
 
