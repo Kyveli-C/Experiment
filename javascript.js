@@ -6,17 +6,17 @@ function correctPicture ()
 {
     let element=event.target;
 
-    alert ("Well done!");
+   // alert ("Well done!");
     gameScore++;
     document.getElementById("score").innerHTML="Score:"+gameScore;
     element.style.backgroundColor = "green";
 
 }
 
-function wrongPicture ()
-{
-    alert ("Sorry! Try again!");
-}
+// function wrongPicture ()
+// {
+//     alert ("Sorry! Try again!");
+// }
 
 
 
@@ -46,12 +46,12 @@ function checkAnswer()
     let feed=document.getElementById("feedback");
     if (found)
     {
-        alert("Well done!");
+       // alert("Well done!");
         feed.innerHTML += answer + "<br>";
     }
     else
     {
-        alert ("Sorry! Try again!");
+      //  alert ("Sorry! Try again!");
     }
     document.getElementById("score").innerHTML="Score:"+gameScore;
     document.getElementById("guess").value="";
